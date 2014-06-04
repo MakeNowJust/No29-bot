@@ -14,7 +14,7 @@ $ npm install
 $ npm run
 ```
 
-で動かなかったなご愁傷さまです。
+で動かなかったらご愁傷さまです。
 
 ##機能 _Functions_
 
@@ -53,7 +53,7 @@ IRC上での名前を文字列で指定してください。
 
 例: `["testtouhuserver"]`
 
-##その他
+##その他 _Others_
 
 ライセンスはzlib/pngライセンスです。
 
