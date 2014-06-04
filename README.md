@@ -11,7 +11,7 @@ __No29-bot__というIRC botです。
 $ git clone https://github.com/MakeNowJust/No29-bot.git
 $ cd No29-bot
 $ npm install
-$ npm run
+$ npm start
 ```
 
 で動かなかったらご愁傷さまです。
