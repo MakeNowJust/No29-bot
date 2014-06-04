@@ -51,7 +51,7 @@ IRC上での名前を文字列で指定してください。
 
 接続するチャンネルの名前を文字列の配列で指定してください。
 
-例: `["testtouhuserver"]`
+例: `["#testtouhuserver"]`
 
 ##その他 _Others_
 
