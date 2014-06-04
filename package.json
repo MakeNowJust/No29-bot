@@ -1,0 +1,28 @@
+{
+  "name": "No29-bot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "No29-bot is a IRC bot",
+  "main": "bot.js",
+  "dependencies": {
+    "irc": "^0.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "run": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MakeNowJust/No29-bot.git"
+  },
+  "keywords": [
+    "IRC"
+  ],
+  "author": "TSUYUSATO Kitsune",
+  "license": "zlib/libpng",
+  "bugs": {
+    "url": "https://github.com/MakeNowJust/No29-bot/issues"
+  },
+  "homepage": "https://github.com/MakeNowJust/No29-bot"
+}
