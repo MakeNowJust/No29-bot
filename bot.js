@@ -20,6 +20,13 @@ bot.addListener('join', function (chan, nickName) {
   }
 });
 
+var
+vmOptions = {
+  filename: '<sandbox>',
+  timeout: 5000,
+},
+scope = {};
+
 bot.addListener('message', function (from, to, msg) {
   var
   m, res;
@@ -28,7 +35,8 @@ bot.addListener('message', function (from, to, msg) {
 
   if (m = msg.match(regex)) {
     try {
-      res = vm.runInNewContext('with(Math){' + m[1] + '}', null, '<sandbox>');
+      console.log('eval: ', m[1]);
+      res = vm.runInNewContext('with(Math){' + m[1] + '}', scope, vmOptions);
     } catch (e) {
       res = e;
     }
