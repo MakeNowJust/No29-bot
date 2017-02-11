@@ -1,5 +1,7 @@
 #No29-bot
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MakeNowJust/No29-bot.svg)](https://greenkeeper.io/)
+
 ##これは何？ _What is?_
 
 __No29-bot__というIRC botです。
